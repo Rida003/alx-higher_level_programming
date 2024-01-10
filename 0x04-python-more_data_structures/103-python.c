@@ -57,6 +57,3 @@ void print_python_list(PyObject *p)
 			print_python_bytes(item);
 	}
 }
-
-
-printf("[*] Allocated = %d\n", (int) clone->allocated);
